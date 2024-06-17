@@ -1,0 +1,19 @@
+yield
+feeAccount
+const feeAccount = await marketplace.feeAccount()
+feePercent
+const feePercent = await marketplace.feePercent()
+marketplace
+const marketplace = await ethers.getContractAt("Marketplace","0x5FC8d32690cc91D4c39d9d3abcBD16989F875707")
+.exit
+symbol
+const symbol = await contract.symbol()
+name
+const name = await contract.name()
+tokenCount
+const tokenCount = await contract.tokenCount()
+const contract = await ethers.getContractAt("NFT", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+contract
+const contract = await ethers.getContractAt("NFT", "0x9fE46736679d2D9a65F0992F2272dE9f3c7fa6e0")
+const contract = await ethers.getContractAt("NFT","0x9fE46736679d2D9a65099F02272dE9f3c7fa6e0")
+const contract = await ethers.getContractAt("NFT","0x9fE46736679d2D9a65099F2272dE9f3c7fa6e0") 
